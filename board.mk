@@ -2,8 +2,8 @@ BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
 BOARDINC += $(BOARD_DIR)/generated/controllers/generated
 
-DDEFS += -DFIRMWARE_ID=\"XXX\"
-SHORT_BOARD_NAME=XXX
+DDEFS += -DFIRMWARE_ID=\"community-hellen-100\"
+SHORT_BOARD_NAME=community-hellen-100
 
 # reduce memory usage monitoring
 DDEFS += -DRAM_UNUSED_SIZE=100
