@@ -2,6 +2,8 @@ BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
 BOARDINC += $(BOARD_DIR)/generated/controllers/generated
 
+include $(PROJECT_DIR)/config/boards/hellen/hellen-common100.mk
+
 DDEFS += -DFIRMWARE_ID=\"community-hellen-100\"
 SHORT_BOARD_NAME=community-hellen-100
 
